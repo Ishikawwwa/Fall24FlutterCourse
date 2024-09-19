@@ -1,0 +1,9 @@
+analyzer:
+  exclude:
+    - lib/templates/lab8/main.dart  # Exclude this file from being analyzed
+
+linter:
+  rules:
+    avoid_print: false 
+    unused_import: false
+    prefer_const_constructors: false
